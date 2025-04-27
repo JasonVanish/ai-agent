@@ -15,7 +15,6 @@ try:
     from src.task_execution import TaskExecutionEngine
     from src.conversation import ConversationManager
     from src.response_generator import ResponseGenerator
-except ImportError:
     # Alternative import path for Streamlit Cloud
    # Use relative imports
 try:

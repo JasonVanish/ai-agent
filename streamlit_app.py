@@ -23,14 +23,12 @@ try:
     from src.task_execution import TaskExecutionEngine
     from src.conversation import ConversationManager
     from src.response_generator import ResponseGenerator
-except ImportError:
     # Alternative import path for Streamlit Cloud
     from .src.nlu import NLUModule
     from .src.knowledge_base import KnowledgeBase
     from .src.task_execution import TaskExecutionEngine
     from .src.conversation import ConversationManager
     from .src.response_generator import ResponseGenerator
-except:
     # Fallback for direct module import
     # Use relative imports
 try:
@@ -39,22 +37,18 @@ try:
     from src.task_execution import TaskExecutionEngine
     from src.conversation import ConversationManager
     from src.response_generator import ResponseGenerator
-except ImportError:
     # Alternative import path for Streamlit Cloud
     from .src.nlu import NLUModule
     from .src.knowledge_base import KnowledgeBase
     from .src.task_execution import TaskExecutionEngine
     from .src.conversation import ConversationManager
     from .src.response_generator import ResponseGenerator
-except:
     # Fallback for direct module import
     from nlu import NLUModule
     from knowledge_base import KnowledgeBase
     from task_execution import TaskExecutionEngine
     from conversation import ConversationManager
     from response_generator import ResponseGenerator
-
-except:
     # Fallback for direct module import
     # Use relative imports
 try:
@@ -63,14 +57,12 @@ try:
     from src.task_execution import TaskExecutionEngine
     from src.conversation import ConversationManager
     from src.response_generator import ResponseGenerator
-except ImportError:
     # Alternative import path for Streamlit Cloud
     from .src.nlu import NLUModule
     from .src.knowledge_base import KnowledgeBase
     from .src.task_execution import TaskExecutionEngine
     from .src.conversation import ConversationManager
     from .src.response_generator import ResponseGenerator
-except:
     # Fallback for direct module import
     from nlu import NLUModule
     from knowledge_base import KnowledgeBase
